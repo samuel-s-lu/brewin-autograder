@@ -57,8 +57,8 @@ class TestScaffold(AbstractTestScaffold):
             interpreter.run(program)
         except Exception as exception:  # pylint: disable=broad-except
             if expect_failure:
-                error_type, line = interpreter.get_error_type_and_line()
-                received = [f"{error_type} {line}"]
+                error_type, _ = interpreter.get_error_type_and_line()
+                received = [f"{error_type}"]
                 if received == expected:
                     return 1
                 print("\nExpected error:")
