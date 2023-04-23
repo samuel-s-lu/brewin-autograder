@@ -9,8 +9,8 @@ This repository contains:
 - the **full source code** for the autograder we deploy to Gradescope
 - 10% of the test cases we evaluate your code on; these are the test cases that are public on Gradescope
     - each version of the project is in a `v*` folder;
-    - the `tests` subdirectory contains source (`.br`), expected (`.exp`), and standard input (`.in`) files for programs that should interpret and run without errors
-    - the `fails` subdirectory contains source (`.br`), expected (`.exp`), and standard input (`.in`) files for programs that should interpret successfully, but error
+    - the `tests` subdirectory contains source (`.brewin`), expected (`.exp`), and standard input (`.in`) files for programs that should interpret and run without errors
+    - the `fails` subdirectory contains source (`.brewin`), expected (`.exp`), and standard input (`.in`) files for programs that should interpret successfully, but error
 
 This repository does not contain:
 
