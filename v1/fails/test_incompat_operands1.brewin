@@ -1,7 +1,7 @@
 (class main
- (method main ()
-  (begin
-		(print (+ 100 "abc"))
-  )
- )
+    (field num1 2)
+    (field num2 4)
+    (method main ()
+        (print (+ num3 num2))
+    )
 )
